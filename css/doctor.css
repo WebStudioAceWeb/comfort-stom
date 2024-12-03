@@ -1,0 +1,72 @@
+.doctor-profile {
+  background: #fdfdfd;
+  padding: 60px 20px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+.profile-wrapper {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.doctor-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+.doctor-info1 h2 {
+  font-size: 32px;
+  color: #d4af37; /* Золотой цвет */
+  margin-bottom: 10px;
+}
+
+.doctor-info1 h4 {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.doctor-info1 .position,
+.doctor-info1 .membership,
+.doctor-info1 .experience {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.doctor-info1 h3 {
+  font-size: 22px;
+  color: #d4af37;
+  margin-top: 20px;
+}
+
+.doctor-info1 ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.doctor-info1 ul li {
+  margin-bottom: 8px;
+}
+
+.doctor-info1 .master-level {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #222;
+}
+
+@media (max-width: 1024px) {
+  .doctor-image {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 740px) {
+  .doctor-info1 {
+    padding: 0;
+    text-align: left;
+  }
+}
